@@ -1,0 +1,106 @@
+.registration-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 345px;
+  padding: 45px;
+  padding-top: 58px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.heading {
+  text-align: center;
+  color: #ea580c;
+  font-family: 'roboto';
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.label {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 18px;
+}
+
+.input {
+  color: #9aa5b1;
+  font-family: 'roboto';
+  font-size: 14px;
+  padding: 8px;
+  padding-left: 8px;
+  font-weight: 500;
+  border-style: solid;
+  border-color: #cbd2d9;
+  border-width: 2px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.input-required {
+  background-color: #fef2f4;
+  border-width: 2px;
+  border-color: #ff0b37;
+}
+
+.required {
+  margin: 0;
+  color: #ff0b37;
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #ea580c;
+  font-family: 'roboto';
+  color: #ffffff;
+  border-width: 0;
+  border-radius: 5px;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  align-self: center;
+  margin-top: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.right-tick {
+  align-self: center;
+  height: 58px;
+  width: 58px;
+}
+
+.success {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'roboto';
+  color: #475569;
+}
+
+@media (max-width: 767px) {
+  .form-container {
+    box-shadow: none;
+    padding: 0;
+    width: 90%;
+    margin-top: 24px;
+  }
+
+  .button {
+    align-self: stretch;
+  }
+}
